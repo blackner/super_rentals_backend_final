@@ -6,8 +6,8 @@ class CreateRentals < ActiveRecord::Migration[7.0]
       t.string :city
       t.string :location
       t.string :category
-      t.string :image
       t.integer :bedrooms
+      t.string :image
       t.string :description
       t.timestamps
     end

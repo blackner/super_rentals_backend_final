@@ -32,3 +32,7 @@ end
 # Uncomment the following line if you're running Rails
 # on a native Windows system:
 gem "tzinfo-data"
+
+gem "active_model_serializers", "~> 0.10.7"
+
+gem "rack-cors"
