@@ -3,10 +3,7 @@ Rental.create(
     :title => "Grand Old Mansion", 
     :owner => "Veruca Salt",
     :city => "San Francisco",
-    :location => "{
-        'lat': 37.7749,
-        'lng': -122.4194
-      }",
+    :location => '{"lat": 37.7749, "lng": -122.4194}',
     :category => "Estate",
     :bedrooms => 15,
     :image => "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
@@ -17,10 +14,7 @@ Rental.create(
     :title => "Urban Living", 
     :owner => "Mike Teavee",
     :city => "Seattle",
-    :location => "{
-        'lat': 47.6062,
-        'lng': -122.3321
-      }",
+    :location => '{"lat": 47.6062, "lng": -122.3321}',
     :category => "Condo",
     :bedrooms => 1,
     :image => "https://upload.wikimedia.org/wikipedia/commons/2/20/Seattle_-_Barnes_and_Bell_Buildings.jpg",
@@ -31,10 +25,7 @@ Rental.create(
     :title => "Downtown Charm", 
     :owner => "Violet Beauregarde",
     :city => "Portland",
-    :location => "{
-        'lat': 45.5175,
-        'lng': -122.6801
-      }",
+    :location => '{"lat": 45.5175, "lng": -122.6801}',
     :category => "Apartment",
     :bedrooms => 3,
     :image => "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg",
